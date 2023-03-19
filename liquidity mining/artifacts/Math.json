@@ -1,0 +1,61 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212204ba90962bdc25c22a2ddbd942d395d8e233a340d31a9d3c10cc16e8e4f62958c64736f6c634300060c0033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4B 0xA9 MULMOD PUSH3 0xBDC25C 0x22 LOG2 0xDD 0xBD SWAP5 0x2D CODECOPY 0x5D DUP15 0x23 GASPRICE CALLVALUE 0xD BALANCE 0xA9 0xD3 0xC1 0xC 0xC1 PUSH15 0x8E4F62958C64736F6C634300060C00 CALLER ",
+			"sourceMap": "7422:691:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212204ba90962bdc25c22a2ddbd942d395d8e233a340d31a9d3c10cc16e8e4f62958c64736f6c634300060c0033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4B 0xA9 MULMOD PUSH3 0xBDC25C 0x22 LOG2 0xDD 0xBD SWAP5 0x2D CODECOPY 0x5D DUP15 0x23 GASPRICE CALLVALUE 0xD BALANCE 0xA9 0xD3 0xC1 0xC 0xC1 PUSH15 0x8E4F62958C64736F6C634300060C00 CALLER ",
+			"sourceMap": "7422:691:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"average(uint256,uint256)": "infinite",
+				"max(uint256,uint256)": "infinite",
+				"min(uint256,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

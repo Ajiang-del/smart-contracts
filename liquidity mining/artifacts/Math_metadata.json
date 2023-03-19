@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20StakingPool.sol": "Math"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20StakingPool.sol": {
+			"keccak256": "0xea616956c42857b9251b8f9080be6107ce621adb4ee595f09140cc91d4f09474",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://67af6fcd352a900b4268de7c602ae886f7d13f02d738541e7ba47c9c9fb4e660",
+				"dweb:/ipfs/Qmd7qsoP5H48Ts6Ad4AsUVhhge6FRGvoB8JGb5FjZrVSDT"
+			]
+		}
+	},
+	"version": 1
+}
